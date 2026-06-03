@@ -87,13 +87,9 @@ export default function Home() {
         <div className="container">
           <div className="hero-content">
             <h1>Aether</h1>
-            <p className="tagline">LLM Agent Safety Research</p>
+            <p className="tagline">AI Safety Research</p>
             <p className="mission-text">
-              Aether is an independent LLM agent safety research group dedicated to
-              conducting impactful research that ensures the responsible development and
-              deployment of AI technologies. We work on whatever seems most impactful to
-              us, focusing on critical areas that can positively influence AGI companies,
-              governments, and the broader AI safety field.
+              Aether is an AI safety research group working on ensuring the responsible development of AI technologies. We have mainly focused on chain-of-thought monitorability research in the past, but are open to various other research directions that can positively influence AGI companies, governments, and the broader AI safety field. We are funded by Coefficient Giving.
             </p>
           </div>
           <div className="hero-cta">
