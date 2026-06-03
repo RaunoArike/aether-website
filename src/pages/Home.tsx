@@ -34,7 +34,7 @@ const TEAM_MEMBERS = [
   {
     name: 'Joey Yudelson',
     role: 'Research Scientist',
-    img: null,
+    img: '/images/joey.webp',
     url: 'https://www.lesswrong.com/users/joey-yudelson',
   },
 ]
