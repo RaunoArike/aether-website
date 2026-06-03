@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Aether</title>
+    <script>
+      // SPA redirect for GitHub Pages: store the current URL and redirect to root
+      sessionStorage.redirect = location.href;
+      location.replace(location.origin);
+    </script>
+  </head>
+  <body></body>
+</html>
