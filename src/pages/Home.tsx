@@ -130,8 +130,9 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      Think Fast: Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models{' '}
-                      <span className="forthcoming">(forthcoming)</span>
+                      <a href="https://arxiv.org/abs/2606.07157" target="_blank" rel="noopener noreferrer">
+                      Think Fast: Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models
+                      </a>
                     </li>
                   </ul>
                 </div>
