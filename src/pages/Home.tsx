@@ -112,7 +112,7 @@ export default function Home() {
           <div className="research-list">
             <div className="research-item">
               <div className="research-content">
-                <h3>Chain-of-Thought Monitoring & Hidden Reasoning</h3>
+                <h3>Monitoring & Hidden Reasoning</h3>
                 <p>
                   Our primary research focus has been on chain-of-thought monitoring. We
                   investigate how information access affects LLM monitors' ability to detect
