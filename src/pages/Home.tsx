@@ -208,7 +208,7 @@ export default function Home() {
 
                 <div className="pub-group">
                   <h4 className="pub-group-label">Blog posts</h4>
-                  <ul className="pub-list">
+                  <ul className="pub-list pub-list-columns">
                     <li>
                       <a href="https://www.lesswrong.com/posts/6EwuCH3vZ7qvPt82k/a-list-of-research-directions-in-character-training" target="_blank" rel="noopener noreferrer">
                         A List of Research Directions in Character Training
