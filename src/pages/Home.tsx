@@ -131,7 +131,7 @@ export default function Home() {
                       <a href="https://arxiv.org/abs/2601.21112" target="_blank" rel="noopener noreferrer">
                         How does information access affect LLM monitors' ability to detect sabotage?
                       </a>{' '}
-                      <span className="pub-venue">(ICLR, 2026)</span>
+                      <span className="pub-venue">(ICML, 2026)</span>
                       <span className="pub-authors">
                         Rauno Arike*, Raja Mehta Moreno*, Rohan Subramani*, Shubhorup Biswas, Francis Rhys Ward
                       </span>
