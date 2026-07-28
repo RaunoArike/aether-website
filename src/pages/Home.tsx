@@ -119,6 +119,9 @@ export default function Home() {
                   sabotage and other safety-critical behaviors. We've also developed a
                   taxonomy for understanding hidden reasoning processes within LLMs,
                   providing a structured framework for analyzing covert reasoning mechanisms.
+                  Our current focus is on developing a <i>science of held-out monitors</i>:
+                  understanding when our held-out measures of alignment silently degrade as we
+                  train LLMs against correlated proxies, and when they remain trustworthy.
                 </p>
 
                 <div className="pub-group">
@@ -127,12 +130,129 @@ export default function Home() {
                     <li>
                       <a href="https://arxiv.org/abs/2601.21112" target="_blank" rel="noopener noreferrer">
                         How does information access affect LLM monitors' ability to detect sabotage?
-                      </a>
+                      </a>{' '}
+                      <span className="pub-venue">(ICLR, 2026)</span>
+                      <span className="pub-authors">
+                        Rauno Arike*, Raja Mehta Moreno*, Rohan Subramani*, Shubhorup Biswas, Francis Rhys Ward
+                      </span>
                     </li>
                     <li>
                       <a href="https://arxiv.org/abs/2606.07157" target="_blank" rel="noopener noreferrer">
-                      Think Fast: Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models
+                        Think Fast: Estimating No-CoT Task-Completion Time Horizons of Frontier AI Models
+                      </a>{' '}
+                      <span className="pub-venue">(arXiv, 2026)</span>
+                      <span className="pub-authors">
+                        Dewi Gould*, Francis Rhys Ward*, Anders Cairns Woodruff&dagger;, Rauno Arike&dagger;, et al.
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="pub-group">
+                  <h4 className="pub-group-label">Blog posts</h4>
+                  <ul className="pub-list pub-list-columns">
+                    <li>
+                      Held-out Monitors Sometimes Degrade, Even When Not Trained Against{' '}
+                      <span className="forthcoming">(forthcoming)</span>
+                      <span className="pub-authors">Joey Yudelson</span>
+                    </li>
+                    <li>
+                      <a href="https://www.lesswrong.com/posts/ZrgFfeWuckpwK5Lyi/hidden-reasoning-in-llms-a-taxonomy" target="_blank" rel="noopener noreferrer">
+                        Hidden Reasoning in LLMs: A Taxonomy
                       </a>
+                      <span className="pub-authors">Rauno Arike, Rohan Subramani, Shubhorup Biswas</span>
+                    </li>
+                    <li>
+                      <a href="https://www.lesswrong.com/posts/zkccztuSjLshffrNr/13-arguments-about-a-transition-to-neuralese-ais" target="_blank" rel="noopener noreferrer">
+                        13 Arguments About a Transition to Neuralese AIs
+                      </a>
+                      <span className="pub-authors">Rauno Arike</span>
+                    </li>
+                    <li>
+                      <a href="https://www.lesswrong.com/posts/g8by3avjatXnpvM4A/should-we-train-against-cot-monitors-1" target="_blank" rel="noopener noreferrer">
+                        Should We Train Against (CoT) Monitors?
+                      </a>
+                      <span className="pub-authors">Rohan Subramani</span>
+                    </li>
+                    <li>
+                      <a href="https://www.lesswrong.com/posts/tEFD2bgNWZ6XcurKA/the-most-forbidden-technique-is-not-always-forbidden-1" target="_blank" rel="noopener noreferrer">
+                        The Most Forbidden Technique is not always forbidden
+                      </a>
+                      <span className="pub-authors">Rauno Arike</span>
+                    </li>
+                    <li>
+                      <a href="https://www.lesswrong.com/posts/9z6TuKEgZNsmqdfy6/exploring-reinforcement-learning-effects-on-chain-of-thought" target="_blank" rel="noopener noreferrer">
+                        Exploring Reinforcement Learning Effects on Chain-of-Thought Legibility
+                      </a>
+                      <span className="pub-authors">Julian Huang, Rohan Subramani, Baram Sosis, Vedant Badoni, Holden Mui</span>
+                    </li>
+                    <li>
+                      <a href="https://www.lesswrong.com/posts/QdQnM4v8KbLZZdjH5/efficiently-detecting-hidden-reasoning-with-a-small" target="_blank" rel="noopener noreferrer">
+                        Efficiently Detecting Hidden Reasoning with a Small Predictor Model
+                      </a>
+                      <span className="pub-authors">
+                        Rohan Subramani, Vishnu Vardhan Sai Lanka, Yau-Meng Wong, Daria Ivanova
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="research-item">
+              <div className="research-content">
+                <h3>Understanding and Shaping LLM Propensities</h3>
+                <p>
+                  We have also researched topics related to LLM propensities, including character training, model organisms of misalignment, and pretraining data filtering.
+                </p>
+
+                <div className="pub-group">
+                  <ul className="pub-list">
+                    <li>
+                      <a href="https://www.lesswrong.com/posts/6EwuCH3vZ7qvPt82k/a-list-of-research-directions-in-character-training" target="_blank" rel="noopener noreferrer">
+                        A List of Research Directions in Character Training
+                      </a>
+                      <span className="pub-authors">Rauno Arike</span>
+                    </li>
+                    <li>
+                      Can language models preserve their own alignment?{' '}
+                      <span className="forthcoming">(forthcoming)</span>
+                      <span className="pub-authors">Rauno Arike</span>
+                    </li>
+                    <li>
+                      Model Organisms of Sandbagging in the Wild?{' '}
+                      <span className="forthcoming">(forthcoming)</span>
+                      <span className="pub-authors">Vladimir Ivanov</span>
+                    </li>
+                    <li>
+                      Tentative Recommendations for Pretraining Data Filtering{' '}
+                      <span className="forthcoming">(forthcoming)</span>
+                      <span className="pub-authors">Rauno Arike, Lev McKinney</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="research-item">
+              <div className="research-content">
+                <h3>Continual Learning Safety</h3>
+                <p>
+                  We studied how continual learning may arise in LLM agents and what it
+                  would mean for AI capabilities and safety. We're no longer actively pursuing this direction.
+                </p>
+
+                <div className="pub-group">
+                  <h4 className="pub-group-label">Papers</h4>
+                  <ul className="pub-list">
+                    <li>
+                      <a href="https://static1.squarespace.com/static/68c0e2a71bf8b3372a371105/t/69fc5a58aa38606b69ae9b02/1778145880719/Continual_Learning_camera_ready.pdf" target="_blank" rel="noopener noreferrer">
+                        Continual Learning in LLM Agents: Capabilities, Risks, and Research Directions
+                      </a>{' '}
+                      <span className="pub-venue">(TAIS, 2026)</span>
+                      <span className="pub-authors">
+                        Rohan Subramani*, Rauno Arike*, Owen Terry, Achu Menon, Zhijing Jin, Francis Rhys Ward, Seth Herd
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -141,63 +261,40 @@ export default function Home() {
                   <h4 className="pub-group-label">Blog posts</h4>
                   <ul className="pub-list">
                     <li>
-                      <a href="https://www.lesswrong.com/posts/ZrgFfeWuckpwK5Lyi/hidden-reasoning-in-llms-a-taxonomy" target="_blank" rel="noopener noreferrer">
-                        Hidden Reasoning in LLMs: A Taxonomy
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.lesswrong.com/posts/zkccztuSjLshffrNr/13-arguments-about-a-transition-to-neuralese-ais" target="_blank" rel="noopener noreferrer">
-                        13 Arguments About a Transition to Neuralese AIs
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.lesswrong.com/posts/g8by3avjatXnpvM4A/should-we-train-against-cot-monitors-1" target="_blank" rel="noopener noreferrer">
-                        Should We Train Against (CoT) Monitors?
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.lesswrong.com/posts/9z6TuKEgZNsmqdfy6/exploring-reinforcement-learning-effects-on-chain-of-thought" target="_blank" rel="noopener noreferrer">
-                        Exploring Reinforcement Learning Effects on Chain-of-Thought Legibility
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.lesswrong.com/posts/QdQnM4v8KbLZZdjH5/efficiently-detecting-hidden-reasoning-with-a-small" target="_blank" rel="noopener noreferrer">
-                        Efficiently Detecting Hidden Reasoning with a Small Predictor Model
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="research-figure">
-                <img src="/images/info_access.png" alt="Information Access Research" />
-              </div>
-            </div>
-
-            <div className="research-item">
-              <div className="research-content">
-                <h3>Emerging Research Areas</h3>
-                <p>
-                  We're exploring topics including shaping the generalization of LLM
-                  personas, interpretable continual learning, and pretraining data
-                  filtering. Our research agenda remains flexible to focus on the most
-                  impactful projects.
-                </p>
-
-                <div className="pub-group">
-                  <ul className="pub-list">
-                    <li>
-                      <a href="https://static1.squarespace.com/static/68c0e2a71bf8b3372a371105/t/69fc5a58aa38606b69ae9b02/1778145880719/Continual_Learning_camera_ready.pdf" target="_blank" rel="noopener noreferrer">
-                        Continual Learning in LLM Agents: Capabilities, Risks, and Research Directions
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.lesswrong.com/posts/6EwuCH3vZ7qvPt82k/a-list-of-research-directions-in-character-training" target="_blank" rel="noopener noreferrer">
-                        A List of Research Directions in Character Training
-                      </a>
-                    </li>
-                    <li>
-                      Tentative Recommendations for Pretraining Data Filtering{' '}
-                      <span className="forthcoming">(forthcoming)</span>
+                      <a href="https://www.lesswrong.com/s/oc5Auteiibo56kNXw" target="_blank" rel="noopener noreferrer">
+                        Implications of Continual Learning for LLM Agents
+                      </a>{' '}
+                      <span className="pub-venue">(LessWrong sequence)</span>
+                      <span className="pub-authors">
+                        Rohan Subramani, Rauno Arike, Owen Terry, Achu Menon, Zhijing Jin, Francis Rhys Ward, Seth Herd
+                      </span>
+                      <ul className="pub-sublist">
+                        <li>
+                          <a href="https://www.lesswrong.com/posts/qChDifwpY8znER7cW/implications-of-continual-learning-for-llm-agents" target="_blank" rel="noopener noreferrer">
+                            Introduction
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.lesswrong.com/posts/5mCJzimtNZc9o4e26/what-s-continual-learning-and-why-might-we-expect-to-see-it" target="_blank" rel="noopener noreferrer">
+                            What's Continual Learning, and Why Might We Expect To See It In Advanced LLM Agents?
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.lesswrong.com/posts/j2zBqt7AksoEoHXNp/how-might-continual-learning-affect-safety-and-alignment" target="_blank" rel="noopener noreferrer">
+                            How Might Continual Learning Affect Safety and Alignment?
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.lesswrong.com/posts/FKggLpnfbpbYvnjfG/angles-of-attack-for-continual-learning-safety" target="_blank" rel="noopener noreferrer">
+                            Angles of Attack for Continual Learning Safety
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.lesswrong.com/posts/qZrbhoaEALFTmyidr/perspectives-on-continual-learning-survey-results-and" target="_blank" rel="noopener noreferrer">
+                            Perspectives on Continual Learning: Survey Results and Forecasts
+                          </a>
+                        </li>
+                      </ul>
                     </li>
                   </ul>
                 </div>

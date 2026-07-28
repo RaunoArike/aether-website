@@ -306,12 +306,12 @@ section {
 }
 
 .pub-group-label {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--text-light);
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
 
 .pub-list {
@@ -319,13 +319,48 @@ section {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 12px;
 }
 
 .pub-list li {
   font-size: 15px;
   color: var(--text-light);
   line-height: 1.5;
+}
+
+.pub-list-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 32px;
+}
+
+.pub-venue {
+  color: var(--text-light);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.pub-authors {
+  display: block;
+  font-size: 13px;
+  color: var(--text-light);
+  opacity: 0.85;
+  line-height: 1.4;
+  margin-top: 2px;
+}
+
+.pub-sublist {
+  list-style: none;
+  padding: 0 0 0 16px;
+  margin-top: 6px;
+  border-left: 2px solid rgba(127, 127, 127, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.pub-sublist li {
+  font-size: 14px;
 }
 
 .pub-list a {
@@ -671,6 +706,10 @@ section {
   .research-item {
     flex-direction: column;
     gap: 24px;
+  }
+
+  .pub-list-columns {
+    grid-template-columns: 1fr;
   }
 
   .research-figure {
