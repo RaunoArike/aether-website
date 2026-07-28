@@ -203,10 +203,11 @@ export default function Home() {
               <div className="research-content">
                 <h3>Understanding and Shaping LLM Propensities</h3>
                 <p>
-                  We have also researched topics related to LLM propensities, including character training, model organisms of misalignment, and pretraining data filtering.
+                  We have also explored topics related to LLM propensities, including character training, model organisms of misalignment, and pretraining data filtering.
                 </p>
 
                 <div className="pub-group">
+                  <h4 className="pub-group-label">Blog posts</h4>
                   <ul className="pub-list">
                     <li>
                       <a href="https://www.lesswrong.com/posts/6EwuCH3vZ7qvPt82k/a-list-of-research-directions-in-character-training" target="_blank" rel="noopener noreferrer">
