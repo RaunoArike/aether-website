@@ -271,7 +271,7 @@ export default function Home() {
                       </a>{' '}
                       <span className="pub-venue">(LessWrong sequence)</span>
                       <span className="pub-authors">
-                        Rohan Subramani, Rauno Arike, Owen Terry, Achu Menon, Zhijing Jin, Francis Rhys Ward, Seth Herd
+                        Rohan Subramani*, Rauno Arike*, Owen Terry, Achu Menon, Zhijing Jin, Francis Rhys Ward, Seth Herd
                       </span>
                       <ul className="pub-sublist">
                         <li>
