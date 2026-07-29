@@ -144,6 +144,9 @@ export default function Home() {
                       <span className="pub-authors">
                         Dewi Gould*, Francis Rhys Ward*, Anders Cairns Woodruff&dagger;, Rauno Arike&dagger;, et al.
                       </span>
+                      <span className="pub-note">
+                        (in collaboration with Redwood Research, the Astra Fellowship, and MATS)
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -152,8 +155,9 @@ export default function Home() {
                   <h4 className="pub-group-label">Blog posts</h4>
                   <ul className="pub-list pub-list-columns">
                     <li>
-                      Held-out Monitors Sometimes Degrade, Even When Not Trained Against{' '}
-                      <span className="forthcoming">(forthcoming)</span>
+                      <a href="https://www.lesswrong.com/posts/APkFfRp2AicL9RqvT/held-out-monitors-sometimes-degrade-even-when-not-trained" target="_blank" rel="noopener noreferrer">
+                        Held-out Monitors Sometimes Degrade, Even When Not Trained Against
+                      </a>
                       <span className="pub-authors">Joey Yudelson</span>
                     </li>
                     <li>
