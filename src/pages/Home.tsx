@@ -114,10 +114,8 @@ export default function Home() {
               <div className="research-content">
                 <h3>Monitoring & Hidden Reasoning</h3>
                 <p>
-                  Our primary research focus has been on chain-of-thought monitoring. In the past, we have investigated how information access affects LLM monitors' ability to detect sabotage, developed a taxonomy for understanding hidden reasoning processes within LLMs, and contributed to a no-Chain-of-Thought task-completion time horizon benchmark.
-                  Our current focus is on developing a <i>science of held-out monitors</i>:
-                  understanding when our held-out measures of alignment silently degrade as we
-                  train LLMs against correlated proxies, and when they remain trustworthy.
+                Much of our work to date has been on chain-of-thought monitoring. We have investigated how information access affects LLM monitors' ability to detect sabotage, developed a taxonomy for understanding hidden reasoning processes within LLMs, and contributed to a no-CoT task-completion time horizon benchmark.
+                Our current focus is on developing a <i>science of held-out monitors</i>. We are studying when our held-out measures of alignment silently degrade as we train LLMs against correlated proxies, and when they remain trustworthy.
                 </p>
 
                 <div className="pub-group">
