@@ -89,7 +89,7 @@ export default function Home() {
             <h1>Aether</h1>
             <p className="tagline">AI Safety Research</p>
             <p className="mission-text">
-              Aether is an AI safety research group working on ensuring the responsible development of AI technologies. We have mainly focused on chain-of-thought monitorability research in the past, but are open to various other research directions that can positively influence AGI companies, governments, and the broader AI safety field. We are funded by Coefficient Giving.
+              Aether is an AI safety research group. Our primary focus is on studying LLM monitoring and hidden reasoning, but we are also interested in understanding and shaping the propensities of LLMs. More broadly, we aim to positively influence AGI companies, governments, and the AI safety field. We are funded by Coefficient Giving.
             </p>
           </div>
           <div className="hero-cta">
@@ -114,11 +114,7 @@ export default function Home() {
               <div className="research-content">
                 <h3>Monitoring & Hidden Reasoning</h3>
                 <p>
-                  Our primary research focus has been on chain-of-thought monitoring. We
-                  investigate how information access affects LLM monitors' ability to detect
-                  sabotage and other safety-critical behaviors. We've also developed a
-                  taxonomy for understanding hidden reasoning processes within LLMs,
-                  providing a structured framework for analyzing covert reasoning mechanisms.
+                  Our primary research focus has been on chain-of-thought monitoring. In the past, we have investigated how information access affects LLM monitors' ability to detect sabotage, developed a taxonomy for understanding hidden reasoning processes within LLMs, and contributed to a no-Chain-of-Thought task-completion time horizon benchmark.
                   Our current focus is on developing a <i>science of held-out monitors</i>:
                   understanding when our held-out measures of alignment silently degrade as we
                   train LLMs against correlated proxies, and when they remain trustworthy.
