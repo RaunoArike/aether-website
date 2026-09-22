@@ -149,6 +149,12 @@ export default function Home() {
                       <span className="pub-authors">Rauno Arike, Rohan Subramani, Shubhorup Biswas</span>
                     </li>
                     <li>
+                      <a href="https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent" target="_blank" rel="noopener noreferrer">
+                        How concerned should we be about Astra's recurrent architecture?
+                      </a>
+                      <span className="pub-authors">Rauno Arike</span>
+                    </li>
+                    <li>
                       <a href="https://www.lesswrong.com/posts/zkccztuSjLshffrNr/13-arguments-about-a-transition-to-neuralese-ais" target="_blank" rel="noopener noreferrer">
                         13 Arguments About a Transition to Neuralese AIs
                       </a>
